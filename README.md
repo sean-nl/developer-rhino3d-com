@@ -4,7 +4,6 @@ This repo contains the contents of http://developer.rhino3d.com
 
 The site is hosted on [GitHub Pages](https://pages.github.com/) which uses a static site generator called [Jekyll](http://jekyllrb.com/).
 
-
 ## Getting Started
 
 These instructions cover running this project locally on both macOS and Windows so that you can preview changes before pushing them to GitHub Pages.
