@@ -49,40 +49,40 @@ layout: fullwidth-page
   </thead>
   <tbody class="table-striped index_table">
   <tr>
-    <td><a href="{{ site.baseurl }}/guides/rhinocommon" title="RhinoCommon: The cross-platform toolkit for Rhino and Grasshopper"> RhinoCommon</a></td>
-	<td><img src="{{ site.baseurl }}/images/win-logo-small.png" alt="Windows" class="index_table_icon" title="Windows"><img src="{{ site.baseurl }}/images/mac-logo-small.png" alt="macOS" class="index_table_icon" title="Apple macOS"></td>
-	<td><img src="{{ site.baseurl }}/images/cs-logo-small.png" alt="C#" class="index_table_icon" title="C#"><img src="{{ site.baseurl }}/images/vb-logo-small.png" alt="Visual Basic" class="index_table_icon" title="Visual Basic"><img src="{{ site.baseurl }}/images/python-logo-small.png" alt="Python via IronPython" class="index_table_icon" title="Python via IronPython"></td>
-    <td class="index_table_primary_use">Write Rhino plugins & Grasshopper components</td>  
-  </tr>
-  <tr>
     <td><a href="{{ site.baseurl }}/guides/rhinopython" title="Rhino.Python: Pythonic in three dimensions!"> Rhino.Python</a></td>
 	<td><img src="{{ site.baseurl }}/images/win-logo-small.png" alt="Windows" class="index_table_icon" title="Windows"><img src="{{ site.baseurl }}/images/mac-logo-small.png" alt="macOS" class="index_table_icon" title="Apple macOS"></td>
 	<td><img src="{{ site.baseurl }}/images/python-logo-small.png" alt="Python via IronPython" class="index_table_icon" title="Python via IronPython"></td>
-    <td class="index_table_primary_use">Cross-platform scripting</td>  
+    <td class="index_table_primary_use">Basic command scripting for all platforms</td>  
+  </tr>
+  <tr>
+    <td><a href="{{ site.baseurl }}/guides/rhinoscript" title="RhinoScript is based on Microsoft's VBScript language"> RhinoScript</a></td>
+	<td><img src="{{ site.baseurl }}/images/win-logo-small.png" alt="Windows" class="index_table_icon" title="Windows"></td>
+	<td><img src="{{ site.baseurl }}/images/vbscript-logo-small.png" alt="Microsoft VBScript" class="index_table_icon" title="Microsoft VBScript"></td>
+    <td class="index_table_primary_use">The original scripting Rhino for Windows</td>  
+  </tr>
+   <tr>
+    <td><a href="{{ site.baseurl }}/guides/grasshopper" title="Grasshopper Component Development"> Grasshopper</a></td>
+	<td><img src="{{ site.baseurl }}/images/win-logo-small.png" alt="Windows" class="index_table_icon" title="Windows"></td>
+	<td><img src="{{ site.baseurl }}/images/cs-logo-small.png" alt="C#" class="index_table_icon" title="C#"><img src="{{ site.baseurl }}/images/vb-logo-small.png" alt="Visual Basic" class="index_table_icon" title="Visual Basic"><img src="{{ site.baseurl }}/images/python-logo-small.png" alt="Python via IronPython" class="index_table_icon" title="Python via IronPython"></td>
+    <td class="index_table_primary_use">Write custom Grasshopper components</td>  
+  </tr>
+  <tr>
+    <td><a href="{{ site.baseurl }}/guides/rhinocommon" title="RhinoCommon: The cross-platform toolkit for Rhino and Grasshopper"> RhinoCommon</a></td>
+	<td><img src="{{ site.baseurl }}/images/win-logo-small.png" alt="Windows" class="index_table_icon" title="Windows"><img src="{{ site.baseurl }}/images/mac-logo-small.png" alt="macOS" class="index_table_icon" title="Apple macOS"></td>
+	<td><img src="{{ site.baseurl }}/images/cs-logo-small.png" alt="C#" class="index_table_icon" title="C#"><img src="{{ site.baseurl }}/images/vb-logo-small.png" alt="Visual Basic" class="index_table_icon" title="Visual Basic"><img src="{{ site.baseurl }}/images/python-logo-small.png" alt="Python via IronPython" class="index_table_icon" title="Python via IronPython"></td>
+    <td class="index_table_primary_use">Compile Advanced Rhino plug-ins & Grasshopper components</td>  
+  </tr>
+  <tr>
+    <td><a href="{{ site.baseurl }}/guides/cpp" title="C/C++ SDK for Rhino for Windows"> C/C++</a></td>
+	<td><img src="{{ site.baseurl }}/images/win-logo-small.png" alt="Windows" class="index_table_icon" title="Windows"></td>
+	<td><img src="{{ site.baseurl }}/images/cpp-logo-small.png" alt="C/C++" class="index_table_icon" title="C/C++"></td>
+    <td class="index_table_primary_use">Create Rhino for Windows plugins With C++</td>  
   </tr>
   <tr>
     <td><a href="{{ site.baseurl }}/guides/opennurbs" title="openNURBS is free and open source"> openNURBS</a></td>
 	<td><img src="{{ site.baseurl }}/images/win-logo-small.png" alt="Windows" class="index_table_icon" title="Windows"><img src="{{ site.baseurl }}/images/mac-logo-small.png" alt="macOS" class="index_table_icon" title="Apple macOS"></td>
 	<td><img src="{{ site.baseurl }}/images/cs-logo-small.png" alt="C#" class="index_table_icon" title="C#"><img src="{{ site.baseurl }}/images/cpp-logo-small.png" alt="C/C++" class="index_table_icon" title="C/C++"></td>
     <td class="index_table_primary_use">3dm file reading and writing</td>  
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/guides/rhinoscript" title="RhinoScript is based on Microsoft's VBScript language"> RhinoScript</a></td>
-	<td><img src="{{ site.baseurl }}/images/win-logo-small.png" alt="Windows" class="index_table_icon" title="Windows"></td>
-	<td><img src="{{ site.baseurl }}/images/vbscript-logo-small.png" alt="Microsoft VBScript" class="index_table_icon" title="Microsoft VBScript"></td>
-    <td class="index_table_primary_use">Rhino for Windows scripting</td>  
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/guides/cpp" title="C/C++ SDK for Rhino for Windows"> C/C++</a></td>
-	<td><img src="{{ site.baseurl }}/images/win-logo-small.png" alt="Windows" class="index_table_icon" title="Windows"></td>
-	<td><img src="{{ site.baseurl }}/images/cpp-logo-small.png" alt="C/C++" class="index_table_icon" title="C/C++"></td>
-    <td class="index_table_primary_use">Rhino for Windows plugins</td>  
-  </tr>
-   <tr>
-    <td><a href="{{ site.baseurl }}/guides/grasshopper" title="Grasshopper Component Development"> Grasshopper</a></td>
-	<td><img src="{{ site.baseurl }}/images/win-logo-small.png" alt="Windows" class="index_table_icon" title="Windows"></td>
-	<td><img src="{{ site.baseurl }}/images/cs-logo-small.png" alt="C#" class="index_table_icon" title="C#"><img src="{{ site.baseurl }}/images/vb-logo-small.png" alt="Visual Basic" class="index_table_icon" title="Visual Basic"><img src="{{ site.baseurl }}/images/python-logo-small.png" alt="Python via IronPython" class="index_table_icon" title="Python via IronPython"></td>
-    <td class="index_table_primary_use">Grasshopper components</td>  
   </tr>
   <!--
   <tr>
@@ -123,7 +123,7 @@ layout: fullwidth-page
 <div align="center">
 <p>These docs are for Rhino 5, the latest stable release.  <i>Looking for Rhino 6?</i>  Check out the <a href="{{ site.baseurl }}/wip/">Work-In-Progress (WIP) version of this site</a>.</p>
 
-<p>Still unclear?  Browse the <a href="{{ site.baseurl }}/guides/">Guides</a>.  Ask a question in <a href="{{ site.baseurl }}/guides/general/contributing/#discourse">the Forum</a>.  Check out the <a href="{{ site.baseurl }}/guides/general/frequently-asked-questions/">FAQ</a>. Ask <a href="{{ site.baseurl }}/guides/general/contributing/#contacts">a developer</a>.</p>
+<p>Still unclear? Read the <a href="{{ site.baseurl }}/guides/general/which-sdk-is-right/">Which SDK is right for me guide</a>. Browse the <a href="{{ site.baseurl }}/guides/">Guides</a>.  Ask a question in <a href="{{ site.baseurl }}/guides/general/contributing/#discourse">the Forum</a>.  Check out the <a href="{{ site.baseurl }}/guides/general/frequently-asked-questions/">FAQ</a>. Ask <a href="{{ site.baseurl }}/guides/general/contributing/#contacts">a developer</a>.</p>
 
 <p>Rhino developer tools are royalty free and include support.</p>
 
