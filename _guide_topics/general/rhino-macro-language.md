@@ -13,13 +13,11 @@ keywords: ['developer', 'rhino', 'faq']
 layout: toc-guide-page
 ---
 
-You can create macros in Rhino to automate many tasks, customize your commands, and improve your workflow.
+You can create macros in Rhino to automate many tasks, customize your commands, and improve your workflow. Macros are a series of Rhino commands and special characters that feed directly to the Rhino commandline.  There are methods to pause, enter and select in macros in addition to the standard Rhino commands.
 
-There may be some confusion about the use of the term “scripting” here. Classically, it describes both the process of writing macros (what this section is about), as well as writing more sophisticated scripts in either RhinoScript or other programming languages.
+I use the term “Macro” here exclusively to describe the putting together of strings of ordinary Rhino commands and their options to create an automated function. This is scripting on its simplest of levels, and is easily accessible to any ordinary Rhino user, even if they have no knowledge of programming. All You need is a reasonable understanding of Rhino commands and their structure, as well as a logical mind and a taste for a little experimentation and debugging
 
-The two things are actually very different. Writing functions in RhinoScript or other programming languages is a lot more complex than creating macros, and requires some programming knowledge and skills. We don't cover that here.
-
-I use the term “Macro” here exclusively to describe the putting together of strings of ordinary Rhino commands and their options to create an automated function. This is scripting on its simplest of levels, and is easily accessible to any ordinary Rhino user, even if they have no knowledge of programming. All You need is a reasonable understanding of Rhino commands and their structure, as well as a logical mind and a taste for a little experimentation and debugging.
+Macro writing is very different then the functions that can be created with [RhinoScript](http://developer.rhino3d.com/guides/rhinoscript/) or [Python](http://developer.rhino3d.com/guides/rhinopython/).  These scripting langiages are a lot more complex than creating macros, and require some programming knowledge and skills. We don't cover that in this article.
 
 ## The tools you need
 

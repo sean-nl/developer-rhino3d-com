@@ -15,9 +15,14 @@ layout: toc-guide-page
 
 **The quick answer:**
 
+- Rhino supports commandline macros to automate very simple repetative tasks. See [Rhino Macro Guide]({{ site.baseurl }}/guides/general/rhino-macro-language) for more details.
 - If you are looking to automate repetitive tasks in Rhino, writing a [Python]({{ site.baseurl }}/guides/#rhinopython) script is the way to go.  
 - If you need a full-fledged plugin or Grasshopper component, we suggest the [RhinoCommon SDK]({{ site.baseurl }}/guides/rhinocommon/what-is-rhinocommon/). 
 - If you are very proficient with C/C++, you should consider the native [C/C++ SDK]({{ site.baseurl }}/guides/cpp" title="C/C++ SDK for Rhino for Windows) (only supported on Rhino for Windows).
+
+## Using Macros
+
+You can create macros in Rhino to automate many tasks, customize your commands, and improve your workflow. Macros are a series of Rhino commands and special characters that feed directly to the Rhino commandline.  There are methods to pause, enter and select in macros in addition to the standard Rhino commands. For more details on working with macros, go to the [Rhino Macro Guide]({{ site.baseurl }}/guides/general/rhino-macro-language)
 
 ## What are Scripts?
 
