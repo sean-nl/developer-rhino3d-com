@@ -52,7 +52,7 @@ layout: fullwidth-page
     <td><a href="{{ site.baseurl }}/guides/rhinopython" title="Rhino.Python: Pythonic in three dimensions!"> Rhino.Python</a></td>
 	<td><img src="{{ site.baseurl }}/images/win-logo-small.png" alt="Windows" class="index_table_icon" title="Windows"><img src="{{ site.baseurl }}/images/mac-logo-small.png" alt="macOS" class="index_table_icon" title="Apple macOS"></td>
 	<td><img src="{{ site.baseurl }}/images/python-logo-small.png" alt="Python via IronPython" class="index_table_icon" title="Python via IronPython"></td>
-    <td class="index_table_primary_use">Basic command scripting for all platforms</td>  
+    <td class="index_table_primary_use">Scripting and automation for all platforms</td>  
   </tr>
   <tr>
     <td><a href="{{ site.baseurl }}/guides/rhinoscript" title="RhinoScript is based on Microsoft's VBScript language"> RhinoScript</a></td>
