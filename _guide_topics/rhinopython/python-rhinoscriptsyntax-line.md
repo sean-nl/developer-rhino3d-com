@@ -15,7 +15,7 @@ layout: toc-guide-page
 
 ## Lines
 
-3-D lines, or chords, are represented as  zero-based, one-dimensional arrays that contain two elements:  the starting 3-D point and the ending 3-D point.  A 3-D line can be constructed in a number of different ways.  For example:
+3-D lines, or chords, are stored as [Line]({{ site.baseurl }}/api/RhinoCommonWin/html/T_Rhino_Geometry_Line.htm) structures.  A Line represented as  zero-based, one-dimensional arrays that contain two elements:  the starting [point]({{ site.baseurl }}/guides/rhinopython/python-rhinoscriptsyntax-points) and the ending  [point]({{ site.baseurl }}/guides/rhinopython/python-rhinoscriptsyntax-points).  A line can be constructed in a number of different ways.  For example:
 
 ```python
 startPoint = [1.0, 2.0, 3.0]

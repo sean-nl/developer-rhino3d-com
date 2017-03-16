@@ -12,10 +12,10 @@ order: 3
 keywords: ['script', 'Rhino', 'python']
 layout: toc-guide-page
 ---
- 
+
 ## Lists of Points
 
-Many rhinoscriptsyntax functions require a list of points as an argument or return a list of [Point3d]({{ site.baseurl }}/guides/rhinopython/python-rhinoscriptsyntax-points) structures. For example the 'DivideCurve()' function will return a list of points:
+Many rhinoscriptsyntax functions require a [list]({{ site.baseurl }}/guides/rhinopython/python-datatypes/#list) of  [points]({{ site.baseurl }}/guides/rhinopython/python-rhinoscriptsyntax-points) as an argument or return. For example the 'DivideCurve()' function will return a list of points:
 
 ```python
 import rhinoscriptsyntax as rs
@@ -25,18 +25,18 @@ obj = rs.GetObject("Select a curve")
 if obj:
     points = rs.DivideCurve(obj, 4)
     
-print(points[0])
+print(points)
 ```
 
 There are a number of ways to access the information in these lists.
 
-Use an index to access any one of the points as in the line:
+Use an index to access any one of the points:
 
 ```python
-print(points[0]) # Returns a Point3d structure
+print(points[0]) # Returns the first point.
 ```
 
-With Python, it is easy to use the `for` loop to walk through the list and print out the coordinates for each point,
+With Python, it is easy to walk through the list with a `for` loop  and print out the coordinates for each point,
 
 ```python
 for i in points:
@@ -50,13 +50,13 @@ It is also possible to use nested indexes to access a specific coordinate of a p
 print(points[1][1])
 ```
 
-Using the .Y property on the [Point3d]({{ site.baseurl }}/guides/rhinopython/python-rhinoscriptsyntax-points) also would work:
+Using the .Y property on the [point]({{ site.baseurl }}/guides/rhinopython/python-rhinoscriptsyntax-points) also would work:
 
 ```python
 print(points[1].Y)
 ```
 
-To add a point to this list, first create the point3d with `CreatePoint()`, then [append](https://docs.python.org/2/tutorial/datastructures.html) it:
+To add a point to this list, create the point with `CreatePoint()`, then [append](https://docs.python.org/2/tutorial/datastructures.html) it to the list:
 
 ```python
 points.append(rs.CreatePoint(1.0, 2.0, 3.0))

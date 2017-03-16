@@ -25,43 +25,32 @@ For more information in [RhinoScript Fundamentals]({{ site.baseurl }}/guides/rhi
 
 | Method | | |  Description |
 |:--------|:-:|:-:|:--------|
-| DistanceToPlane | | | Returns the distance from a plane to a point. |
-| EvaluatePlane | | | Evaluates a point on a plane. |
-| IntersectPlanes | | | Returns the point calculated by intersecting three planes. |
-| LineArcIntersection | | | Intersects an infinite line and an arc. |
-| LineBetweenCurves | | | Create a line perpendicular or tangent between two curves. |
-| LineBoxIntersection | | | Intersects an infinite line and an axis aligned bounding box. |
-| LineCircleIntersection | | | Intersects an infinite line and a circle. |
-| LineClosestPoint | | | Finds the point on an infinite line that is closest to a test point. |
-| LineCurveIntersection | | | Intersect an infinite line and a curve object. |
-| LineCylinderIntersection | | | Calculates the intersection of a line and a cylinder. |
-| LineIsFartherThan | | | Determines if the shortest distance from a line to a point or another line is greater than a specified distance. |
-| LineLineIntersection | | | Returns the point calculated by intersecting two lines. |
-| LineMaxDistanceTo | | | Finds the longest distance between the line, as a finite chord, and a point or another line. |
-| LineMeshIntersection | | | Intersects an infinite line with a mesh object. |
-| LineMinDistanceTo | | | Finds the shortest distance between the line, as a finite chord, and a point or another line. |
-| LinePlane | | | Returns a plane that contains the line. |
-| LinePlaneIntersection | | | Returns the point calculated by intersecting a line with a plane. |
-| LineSphereIntersection | | | Calculates the intersection of a line and a sphere. |
-| LineTransform | | | Transforms a line. |
-| MovePlane | | | Moves the origin of a plane. |
-| PlaneAngle | | | Calculates the angle between two points on a plane. |
-| PlaneArcIntersection | | | Intersects a plane and an arc. |
-| PlaneCircleIntersection | | | Intersects a plane and a circle. |
-| PlaneClosestPoint | | | Returns the closest point on a plane from a point. |
-| PlaneCurveIntersection | | | Intersects an infinite plane and a curve object. |
-| PlaneEquation | | | Returns the equation of a plane. |
-| PlaneFitFromPoints | | | Returns a plane through an array of points. |
-| PlaneFromFrame | | | Creates a plane from an origin point, X axis direction, and Y axis direction. |
-| PlaneFromNormal | | | Creates a plane from an origin point, and a normal direction. |
-| PlaneFromPoints | | | Creates a plane from three non-colinear points. |
-| PlanePlaneIntersection | | | Returns the line calculated by intersecting two planes. |
-| PlaneSphereIntersection | | | Calculates the intersection of a plane and a sphere. |
-| PlaneTransform | | | Transforms a plane. |
-| RotatePlane | | | Rotates a plane. |
-| WorldXYPlane | | | Returns Rhino's world XY plane. |
-| WorldYZPlane | | | Returns Rhino's world YZ plane. |
-| WorldZXPlane | | | Returns Rhino's world ZX plane. |
+| [DistanceToPlane]({{ site.baseurl }}/api/RhinoScriptSyntax/win/#plane-DistanceToPlane) | | | | Returns the distance from a plane to a point. |
+| [EvaluatePlane]({{ site.baseurl }}/api/RhinoScriptSyntax/win/#plane-EvaluatePlane) | | | | Evaluates a point on a plane. |
+| [IntersectPlanes]({{ site.baseurl }}/api/RhinoScriptSyntax/win/#plane-IntersectPlanes) | | | | Returns the point calculated by intersecting three planes. |
+| [LineCylinderIntersection]({{ site.baseurl }}/api/RhinoScriptSyntax/win/#line-LineCylinderIntersection) | | | | Calculates the intersection of a line and a cylinder. |
+| [LineIsFartherThan]({{ site.baseurl }}/api/RhinoScriptSyntax/win/#line-LineIsFartherThan) | | | | Determines if the shortest distance from a line to a point or another line is greater than a specified distance. |
+| [LineLineIntersection]({{ site.baseurl }}/api/RhinoScriptSyntax/win/#line-LineLineIntersection) | | | | Returns the point calculated by intersecting two lines. |
+| [LineMaxDistanceTo]({{ site.baseurl }}/api/RhinoScriptSyntax/win/#line-LineMaxDistanceTo) | | | | Finds the longest distance between the line, as a finite chord, and a point or another line. |
+| [LinePlane]({{ site.baseurl }}/api/RhinoScriptSyntax/win/#line-LinePlane) | | | | Returns a plane that contains the line. |
+| [LinePlaneIntersection]({{ site.baseurl }}/api/RhinoScriptSyntax/win/#line-LinePlaneIntersection) | | | | Returns the point calculated by intersecting a line with a plane. |
+| [LineSphereIntersection]({{ site.baseurl }}/api/RhinoScriptSyntax/win/#line-LineSphereIntersection) | | | | Calculates the intersection of a line and a sphere. |
+| [LineTransform]({{ site.baseurl }}/api/RhinoScriptSyntax/win/#line-LineTransform) | | | | Transforms a line. |
+| [MovePlane]({{ site.baseurl }}/api/RhinoScriptSyntax/win/#plane-MovePlane) | | | | Moves the origin of a plane. |
+| [PlaneClosestPoint]({{ site.baseurl }}/api/RhinoScriptSyntax/win/#plane-PlaneClosestPoint) | | | | Returns the closest point on a plane from a point. |
+| [PlaneCurveIntersection]({{ site.baseurl }}/api/RhinoScriptSyntax/win/#plane-PlaneCurveIntersection) | | | | Intersects an infinite plane and a curve object. |
+| [PlaneEquation]({{ site.baseurl }}/api/RhinoScriptSyntax/win/#plane-PlaneEquation) | | | | Returns the equation of a plane. |
+| [PlaneFitFromPoints]({{ site.baseurl }}/api/RhinoScriptSyntax/win/#plane-PlaneFitFromPoints) | | | | Returns a plane through an array of points. |
+| [PlaneFromFrame]({{ site.baseurl }}/api/RhinoScriptSyntax/win/#plane-PlaneFromFrame) | | | | Creates a plane from an origin point, X axis direction, and Y axis direction. |
+| [PlaneFromNormal]({{ site.baseurl }}/api/RhinoScriptSyntax/win/#plane-PlaneFromNormal) | | | | Creates a plane from an origin point, and a normal direction. |
+| [PlaneFromPoints]({{ site.baseurl }}/api/RhinoScriptSyntax/win/#plane-PlaneFromPoints) | | | | Creates a plane from three non-colinear points. |
+| [PlanePlaneIntersection]({{ site.baseurl }}/api/RhinoScriptSyntax/win/#plane-PlanePlaneIntersection) | | | | Returns the line calculated by intersecting two planes. |
+| [PlaneSphereIntersection]({{ site.baseurl }}/api/RhinoScriptSyntax/win/#plane-PlaneSphereIntersection) | | | | Calculates the intersection of a plane and a sphere. |
+| [PlaneTransform]({{ site.baseurl }}/api/RhinoScriptSyntax/win/#plane-PlaneTransform) | | | | Transforms a plane. |
+| [RotatePlane]({{ site.baseurl }}/api/RhinoScriptSyntax/win/#plane-RotatePlane) | | | | Rotates a plane. |
+| [WorldXYPlane]({{ site.baseurl }}/api/RhinoScriptSyntax/win/#plane-WorldXYPlane) | | | | Returns Rhino's world XY plane. |
+| [WorldYZPlane]({{ site.baseurl }}/api/RhinoScriptSyntax/win/#plane-WorldYZPlane) | | | | Returns Rhino's world YZ plane. |
+| [WorldZXPlane]({{ site.baseurl }}/api/RhinoScriptSyntax/win/#plane-WorldZXPlane) | | | | Returns Rhino's world ZX plane. |
 |=====
 |
 {: rules="groups"}

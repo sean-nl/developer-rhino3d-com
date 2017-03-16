@@ -41,12 +41,12 @@ var = 382
 
 Most of the time using the standard Python number type is fine. Python will automatically convert a number from one type to another if it needs. But, under certain circumstances that a specific number type is needed (ie. complex, hexidecimal), the format can be forced into a format by using additional syntax in the table below:
 
-| Type | | |Format | | |  Description |
-|:--------|:-:|:-:|:-|:-:|:-:|:--------|
-| int  | | | a = 10 | | | Signed Integer   |
-| long   | | | a = 345L | | | (L) Long integers, they can also be represented in octal and hexadecimal   |
-| float   | | | a = 45.67 | | | (.) Floating point real values   |
-| complex   | | | a = 3.14J | | | (J) Contains integer in the range 0 to 255.   |
+| Type    |      |      | Format    |      |      | Description                              |
+| :------ | :--: | :--: | :-------- | :--: | :--: | :--------------------------------------- |
+| int     |      |      | a = 10    |      |      | Signed Integer                           |
+| long    |      |      | a = 345L  |      |      | (L) Long integers, they can also be represented in octal and hexadecimal |
+| float   |      |      | a = 45.67 |      |      | (.) Floating point real values           |
+| complex |      |      | a = 3.14J |      |      | (J) Contains integer in the range 0 to 255. |
 |=====
 |
 {: rules="groups"}
@@ -98,7 +98,7 @@ Python is currently transitioning to the format syntax above, but python can use
 print "The item %i is repeated %i times"% (element,count)
 ```
 
-For more information on the string formatter in Python see the article: [PyFormat Website](https://pyformat.info/)
+For more information on the string formatter in Python see the article: [PyFormat Website](https://pyformat.info/) and the [Python.org String Operations](https://docs.python.org/2/library/string.html).
 
 
 For a more detailed look at string variables in Python, see the [Tutorialspoint Python Tutorial on stings.](https://www.tutorialspoint.com/python/python_strings.htm) Note: this article does use the older formatting syntax, but has a lot useful information.

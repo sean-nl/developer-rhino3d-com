@@ -15,7 +15,7 @@ layout: toc-guide-page
 
 ## Vectors
 
-Similar to 3d points, 3d vectors are stored as [Vector3d](http://developer.rhino3d.com/api/RhinoCommonWin/html/T_Rhino_Geometry_Vector3d.htm) structures.  They conceptually can be thought as a zero-based, one-dimensional list that contain three numbers. These three number represent to the X, Y and Z coordinate direction of the vector.  Note, unlike points, vectors define magnitude (length) and direction, not position.
+Similar to points, vectors are stored as [Vector3d](http://developer.rhino3d.com/api/RhinoCommonWin/html/T_Rhino_Geometry_Vector3d.htm) structure.  They conceptually can be thought as a zero-based, one-dimensional list that contain three numbers. These three number represent to the X, Y and Z coordinate direction of the vector.  Note, unlike points, vectors define magnitude (length) and direction, not position.
 
 ```
 vector3d contains [1.0, 2.0, 3.0]  
