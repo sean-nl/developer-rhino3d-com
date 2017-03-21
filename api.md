@@ -7,10 +7,15 @@ order: 3
 ---
 # API Reference  
 
-<a href="{{ site.baseurl }}/api/RhinoCommon" target="_blank">RhinoCommon (Rhino for Mac)(opens in separate tab)</a>  
-<a href="{{ site.baseurl }}/api/RhinoCommonWin" target="_blank">RhinoCommon (Rhino for Windows)(opens in separate tab)</a>  
-<a href="{{ site.baseurl }}/api/RhinoScriptSyntax/mac">Rhino.Python RhinoScriptSyntax (Rhino for Mac)</a>  
-<a href="{{ site.baseurl }}/api/RhinoScriptSyntax/win">Rhino.Python RhinoScriptSyntax (Rhino for Windows)</a>  
-<a href="{{ site.baseurl }}/api/grasshopper">Grasshopper (Rhino for Windows)</a>  
-<a href="{{ site.baseurl }}/api/rhinoscript">RhinoScript (Rhino for Windows)</a>  
-<a href="http://4.rhino3d.com/5/rhinocppsdk/index.html">C++ API Docs (Rhino for Windows)</a>
+### Rhino for Windows
+
+* <a href="{{ site.baseurl }}/api/RhinoCommonWin" target="_blank">RhinoCommon</a> <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>
+* <a href="{{ site.baseurl }}/api/RhinoScriptSyntax/win">Rhino.Python (RhinoScriptSyntax)</a>
+* <a href="{{ site.baseurl }}/api/grasshopper" target="_blank">Grasshopper</a> <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>
+* <a href="{{ site.baseurl }}/api/rhinoscript" target="_blank">RhinoScript</a> <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>
+* <a href="http://4.rhino3d.com/5/rhinocppsdk/index.html" target="_blank">C++ API Docs</a> <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>
+
+### Rhino for Mac
+
+* <a href="{{ site.baseurl }}/api/RhinoCommon" target="_blank">RhinoCommon</a> <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>
+* <a href="{{ site.baseurl }}/api/RhinoScriptSyntax/mac">Rhino.Python (RhinoScriptSyntax)</a>
