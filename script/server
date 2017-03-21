@@ -5,8 +5,13 @@
 # contents, use this script to temporarily exclude the api during
 # site generation.
 
-printf 'exclude: ['/api']' >> _config.yml
-jekyll serve --incremental --host 0.0.0.0
+# exclude apis
+printf "exclude: ['/api/']" >> _config.yml
+
+# serve
+jekyll serve $@ --host 0.0.0.0
+
+# clean up
 cp _config.yml _config.yml.tmp
 sed '$ d' _config.yml.tmp > _config.yml
 rm -f _config.yml.tmp
