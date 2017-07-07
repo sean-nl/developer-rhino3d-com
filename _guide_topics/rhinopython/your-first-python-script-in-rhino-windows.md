@@ -68,7 +68,7 @@ In Python the functions definitions need to come before being called in the code
 ```python
 import rhinoscriptsyntax as rs
 
-def HelloWorld()
+def HelloWorld():
     rs.MessageBox ("Hello World")
 
 HelloWorld()
